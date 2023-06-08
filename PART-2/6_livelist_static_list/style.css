@@ -1,0 +1,11 @@
+.myList{
+    list-style: none;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.myList li{
+    background-color: rgb(252, 129, 149);
+    margin: 5px;
+    padding: 5px;
+}

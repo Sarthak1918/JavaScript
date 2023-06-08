@@ -1,0 +1,25 @@
+Before execution if any code it oes through 2 phase
+1)Compilation
+2)Code execution
+
+1)Compilation phase
+   it has three phase
+   i)Tokenizing/lexing -->The JavaScript engine reads the source code character by character and breaks it down into meaningful chunks called tokens. This process is known as tokenization. The tokens include keywords, identifiers, operators, punctuation, and literals.
+   ii)parsing -->  The engine takes the tokens and analyzes their structure according to the language's syntax rules. This process is called syntax parsing or parsing. It creates a data structure called an Abstract Syntax Tree (AST) that represents the hierarchical structure of the code.
+   iii)code generation  -->our code converted into executable format 
+
+   In Ecma Script official documentation it is not mentioned that the js code is compiled
+   but its written that before the execution code must be(it also gives the answer why javascript code is compiled/parsed)
+   i)Early Error Checking
+   ii)Determining Appropriate scope for variables --> which variables belongs to which scope decide before executions  
+      //in this process javascript has only the information about the scope of the variable but the variable is not created yet
+   So these process can be done thorugh compilation
+
+ 2)code execution phase
+ i) Execution Context
+    First Global Execution context created.It has 2 phase
+    i) Creation phase
+    ii)code execution phase
+
+
+    

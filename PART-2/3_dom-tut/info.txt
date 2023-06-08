@@ -1,0 +1,5 @@
+we get our html file.document - Browser parse our html file and create an object that is called object and add this document inside window object In this Document all our html elements are stored in key value pairs
+console.log(document) --> we get out html file as it is
+console.dir(doument)  --> object representation(key value pair)
+
+console.log(document.getElementById("main-section")) ->gives html element
